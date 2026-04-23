@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+.next/
+out/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Secrets
+secrets/
+*.key
+*.pem
+
+# Data (DVC)
+datasets/raw/**
+datasets/processed/**
+!datasets/raw/.gitkeep
+!datasets/processed/.gitkeep
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Models
+*.pt
+*.onnx
+*.pkl
+*.h5
+ml/runs/
+mlruns/
+best_openvino_model/
+
+# Logs
+logs/
+*.log
+tmp/
+temp/
